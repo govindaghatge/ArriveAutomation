@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-14T01:35:55 IST" name="Suite" finished-at="2024-12-14T01:37:36 IST" duration-ms="101724">
+    <groups>
+    </groups>
+    <test started-at="2024-12-14T01:35:55 IST" name="Testng" finished-at="2024-12-14T01:37:36 IST" duration-ms="101724">
+      <class name="TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:35:55 IST" name="Setup" finished-at="2024-12-14T01:36:10 IST" duration-ms="15333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TC_TS_005_Verify_form_is_not_submitting_if_no_field_is_filled_by_user()[pri:1, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:36:10 IST" name="TC_TS_005_Verify_form_is_not_submitting_if_no_field_is_filled_by_user" finished-at="2024-12-14T01:36:20 IST" duration-ms="9927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TS_005_Verify_form_is_not_submitting_if_no_field_is_filled_by_user -->
+        <test-method signature="TC_TS_006_Verify_form_is_not_submitting_if_mandatory_field_is_not_filled()[pri:2, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:36:20 IST" name="TC_TS_006_Verify_form_is_not_submitting_if_mandatory_field_is_not_filled" finished-at="2024-12-14T01:36:40 IST" duration-ms="19365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TS_006_Verify_form_is_not_submitting_if_mandatory_field_is_not_filled -->
+        <test-method signature="TC_TS_007_Verify_Phone_field_is_accepting_only_valid_format()[pri:3, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:36:40 IST" name="TC_TS_007_Verify_Phone_field_is_accepting_only_valid_format" finished-at="2024-12-14T01:36:58 IST" duration-ms="18347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TS_007_Verify_Phone_field_is_accepting_only_valid_format -->
+        <test-method signature="TC_TS_008_Verify_email_field_is_accepting_only_valid_format()[pri:4, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:36:58 IST" name="TC_TS_008_Verify_email_field_is_accepting_only_valid_format" finished-at="2024-12-14T01:37:15 IST" duration-ms="16635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TS_008_Verify_email_field_is_accepting_only_valid_format -->
+        <test-method signature="TC_TS_009_Verify_user_is_able_to_fill_all_the_fields()[pri:5, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:37:15 IST" name="TC_TS_009_Verify_user_is_able_to_fill_all_the_fields" finished-at="2024-12-14T01:37:36 IST" duration-ms="21133" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Thank you for choosing Arrive LEX!] but found [no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="validation_message_5_16"]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49eaf73251fd1c7af3677dbc4c8d5582, findElement {using=xpath, value=//div[@id="validation_message_5_16"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63292/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49eaf73251fd1c7af3677dbc4c8d5582]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Thank you for choosing Arrive LEX!] but found [no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id="validation_message_5_16"]"}
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [49eaf73251fd1c7af3677dbc4c8d5582, findElement {using=xpath, value=//div[@id="validation_message_5_16"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63292}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63292/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 49eaf73251fd1c7af3677dbc4c8d5582]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality.TC_TS_009_Verify_user_is_able_to_fill_all_the_fields(TS_013_VerifyworkingofTimerSlidingFormfunctionality.java:168)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TS_009_Verify_user_is_able_to_fill_all_the_fields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality@7c541c15]" started-at="2024-12-14T01:37:36 IST" name="tearDown" finished-at="2024-12-14T01:37:36 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TS_013_VerifyworkingofTimerSlidingFormfunctionality -->
+    </test> <!-- Testng -->
+  </suite> <!-- Suite -->
+</testng-results>
